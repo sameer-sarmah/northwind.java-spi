@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Cereal
+Bundle-SymbolicName: cereal
+Bundle-Version: 1.0.0.qualifier
+Export-Package: category.cereal
+Bundle-RequiredExecutionEnvironment: J2SE-1.5

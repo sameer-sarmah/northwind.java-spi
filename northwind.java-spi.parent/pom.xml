@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>northwind.java-spi</groupId>
+	<artifactId>parent</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<properties>
+		<springboot.version>2.1.4.RELEASE</springboot.version>
+		<maven.bundle.version>4.2.0</maven.bundle.version>
+	</properties>
+
+	<modules>
+		<module>../northwind.java-spi.api</module>
+		<module>../northwind.java-spi.beverage</module>
+		<module>../northwind.java-spi.cereal</module>
+		<module>../northwind.java-spi.httpclient</module>
+		<module>../northwind.java-spi.rest</module>
+		<module>../northwind.java-spi.service</module>
+		<module>../northwind.java-spi.persistence</module>
+	</modules>
+
+	<build>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+			</resource>
+		</resources>
+	</build>
+</project>
